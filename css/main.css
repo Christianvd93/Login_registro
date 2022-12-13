@@ -1,0 +1,91 @@
+body{
+  display:flex;
+  align-items:center;
+  background: #2c3338;
+  font-family: cursive;
+  
+}
+#frm_login{
+  width:250px;
+  background: black;
+  color: deeppink;
+}
+#frm_login,#frm_registro{
+  border:1px solid deeppink;
+  border-radius:20px;
+  padding:10px;
+  margin:5px auto;
+}
+ #btn_ir_a_registro{
+  color: white;
+}
+#btn_ir_a_registro:hover {
+  background:deeppink;
+  color: black;
+}
+#btn_enviar{
+  background: black;
+}
+#btn_enviar:hover{ 
+  background: deeppink;
+  color: black;
+  border-color: yellow;
+}
+#frm_registro{
+  background: black;
+  color: deeppink;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  width:600px;
+  
+}
+.primera_parte{
+}
+.segunda_parte{
+  margin-left:20px;
+  padding-top:31px;
+}
+#btn_enviar_registrar{
+ margin-left:160px;
+  color: white;
+  margin-top:25px;
+}
+
+#btn_enviar_registrar:hover{
+  background: deeppink;
+  color: black;
+  border-color: yellow;
+
+}
+body,html{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+#home{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  background:blue;
+}
+#frm_login h5{
+  text-align:center;
+}
+
+#frm_login div{
+  margin-top:20px;
+  font-size:12px;
+  text-align:center;
+}
+
+.ocultar{
+  display:none !important;
+}
+nav{
+  text-align:right;
+  padding: 7px;
+}
